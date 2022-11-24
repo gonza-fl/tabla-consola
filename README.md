@@ -1,6 +1,6 @@
 # Tabla de Multiplicar
 
-```js
+```sh
 Options:
   --help     Show help                                 [boolean]
   --version  Show version number                       [boolean]
