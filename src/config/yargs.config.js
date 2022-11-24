@@ -4,20 +4,20 @@ module.exports = require('yargs')
       alias: 'base',
       demandOption: true,
       describe:
-        '-b [number, required] Base number to create a multiplication table.',
+        '-b Base number to create a multiplication table',
       type: 'number',
     },
     s: {
       alias: 'show',
       type: 'boolean',
       default: false,
-      describe: '-s [boolean] Show multiplication table result.',
+      describe: '-s Show multiplication table result',
     },
     l: {
       alias: 'limit',
       type: 'number',
       default: 10,
-      describe: '-l [number] Limit of multiplication table.',
+      describe: '-l [number] Limit of multiplication table',
     },
   })
   .check((argv) => {
