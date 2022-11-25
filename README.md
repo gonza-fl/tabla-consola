@@ -1,4 +1,28 @@
-# Tabla de Multiplicar
+# Multiplication Table
+
+First test with yargs and chalk.
+
+Notes:
+
+> Make sure you have Node.js v16 or higher
+
+> You will see the outputs in the folder named output
+
+
+
+To install dependencies
+
+```js
+npm --save install
+```
+
+Enter the folder and run the program with
+
+```js
+node src/ [options]
+```
+
+Flags
 
 ```sh
 Options:
